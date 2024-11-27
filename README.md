@@ -32,12 +32,15 @@ This project is a Django application implementing Role-Based Access Control (RBA
 
 **Install dependencies:**
 - pip install -r requirements.txt
+  
 **Database Setup**
 -Run migrations:
     - python manage.py migrate
+   
 **Create a superuser:**
 - python manage.py createsuperuser
 - give username, email and password
+
 **Running the Server**
 - python manage.py runserver
 
