@@ -94,6 +94,14 @@ This project is a Django application implementing Role-Based Access Control (RBA
           "refresh":"your_refresh_key"
           }
 
+   **5.User**
+   
+      - URL: localhost:8000/api/user/
+      - Method:GET
+      - Select "Headers"
+            - key: Authorization
+            - value: Bearer your_access_key
+
 ## Django Provides Admin Dashboard 
 
   - localhost:8000/admin
