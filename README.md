@@ -45,10 +45,14 @@ This project is a Django application implementing Role-Based Access Control (RBA
 **Running the Server**
 - python manage.py runserver
 
-2 . **to see the results use Postman app**
-    **API endpoints**
+2 . **API endpoints**
+
+    ## To see the results use Postman 
+    
     **Authentication**
+    
     *1.Register:*
+    
       - URL:localhost:8000/api/register/
       - Method: POST
       - JSON
@@ -60,6 +64,7 @@ This project is a Django application implementing Role-Based Access Control (RBA
           }
 
     *2.Login:*
+    
       - URL:localhost:8000/api/login/
       - Method: POST
       - JSON
@@ -70,6 +75,7 @@ This project is a Django application implementing Role-Based Access Control (RBA
           }
           
     *3.Logout:*
+    
       - URL:localhost:8000/api/logout/
       - Method: POST
       - JSON
@@ -79,6 +85,7 @@ This project is a Django application implementing Role-Based Access Control (RBA
           }
           
     *4.Refresh:*
+    
       - URL:localhost:8000/api/refresh/
       - Method: POST
       - JSON
@@ -88,6 +95,7 @@ This project is a Django application implementing Role-Based Access Control (RBA
           }
 
 ## Django Provides Admin Dashboard 
+
   - localhost:8000/admin
   - username and password is super user name and password
 
