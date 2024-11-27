@@ -34,6 +34,7 @@ This project is a Django application implementing Role-Based Access Control (RBA
 - pip install -r requirements.txt
   
 **Database Setup**
+
 -Run migrations:
     - python manage.py migrate
    
