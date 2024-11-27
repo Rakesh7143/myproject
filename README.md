@@ -85,7 +85,7 @@ This project is a Django application implementing Role-Based Access Control (RBA
 
 ## Django Provides Admin Dashboard 
   - localhost:8000/admin
-username and password is super user name and password
+  - username and password is super user name and password
 
 
 This `README.md` file provides a comprehensive guide for setting up, running, and using your Django RBAC project. It includes sections for installation, configuration, running the server, and using the API endpoints, as well as details on how to contribute to the project.
