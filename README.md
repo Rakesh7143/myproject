@@ -45,13 +45,13 @@ This project is a Django application implementing Role-Based Access Control (RBA
 **Running the Server**
 - python manage.py runserver
 
-2 . **API endpoints**
+## API endpoints
 
-    ## To see the results use Postman 
+   **To see the results use Postman** 
     
-    **Authentication**
+   **Authentication**
     
-    *1.Register:*
+   **1.Register:**
     
       - URL:localhost:8000/api/register/
       - Method: POST
@@ -63,7 +63,7 @@ This project is a Django application implementing Role-Based Access Control (RBA
           "email":"user@example.com"
           }
 
-    *2.Login:*
+   **2.Login:**
     
       - URL:localhost:8000/api/login/
       - Method: POST
@@ -74,7 +74,7 @@ This project is a Django application implementing Role-Based Access Control (RBA
           "password":"password"
           }
           
-    *3.Logout:*
+   **3.Logout:**
     
       - URL:localhost:8000/api/logout/
       - Method: POST
@@ -84,7 +84,7 @@ This project is a Django application implementing Role-Based Access Control (RBA
           "refresh":"your_refresh_key"
           }
           
-    *4.Refresh:*
+   **4.Refresh:**
     
       - URL:localhost:8000/api/refresh/
       - Method: POST
@@ -98,7 +98,8 @@ This project is a Django application implementing Role-Based Access Control (RBA
 
   - localhost:8000/admin
   - username and password is super user name and password
-
+    
+## Conclusion 
 
 This `README.md` file provides a comprehensive guide for setting up, running, and using your Django RBAC project. It includes sections for installation, configuration, running the server, and using the API endpoints, as well as details on how to contribute to the project.
 
